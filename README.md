@@ -16,4 +16,4 @@ The tools published under this repository are under the [GNU General Public Lice
 
 ### Happy cracking :)))
 
--- Heriot Watt Tech Club Cybersecurity team
+- Cybersecurity team

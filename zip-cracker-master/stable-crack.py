@@ -11,7 +11,7 @@ import time
 # todo: Instead of Extracting files, do Open only!
 
 def gettingValues():
-    print("Do you have a wordlist?[y]/[n]: ")
+    print("Do you have a wordlist?[y]/[n]: ")   
     checkWordList = input()
 
     if checkWordList == 'n' or checkWordList == 'N':

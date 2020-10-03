@@ -25,6 +25,7 @@ def main():
     else:
         print("Cannot install rarfile,pyfiglet,py-term.\nConsider installing the scripts seperately.")
         exit()
+    tqdm=os.system("pip3 install tqdm")
     print("All systems are a go! :))")
 
 if __name__ == "__main__":

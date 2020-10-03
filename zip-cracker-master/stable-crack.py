@@ -71,6 +71,12 @@ def zyndra(found,zippedForlater):
         print("You will be leaving this program now...")
         time.sleep(3)
         openingZydra=os.system("python3 zydra.py -f {} -b {} -m 1 -x {}".format(zippedForlater,typeChar,maxChar))
+        
+        if openingZydra != 0:
+            os.system("python zydra.py -f {} -b {} -m 1 -x {}".format(zippedForlater,typeChar,maxChar))
+        else:
+            print("Something went wrong with the installation, please download/clone the repository again :)")
+        
         exit()
 
 

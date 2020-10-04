@@ -74,8 +74,8 @@ def zyndra(found,zippedForlater):
         
         if openingZydra != 0:
             os.system("python zydra.py -f {} -b {} -m 1 -x {}".format(zippedForlater,typeChar,maxChar))
-        else:
-            print("Something went wrong with the installation, please download/clone the repository again :)")
+        
+        # print("Something went wrong with the installation, please download/clone the repository again :)")
         
         exit()
 

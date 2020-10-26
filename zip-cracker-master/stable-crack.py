@@ -11,7 +11,7 @@ import time
 # todo: Instead of Extracting files, do Open only!
 
 def gettingValues():
-    print("Do you have a wordlist?[y]/[n]: ")
+    print("Do you have a wordlist?[y]/[n]: ")   
     checkWordList = input()
 
     if checkWordList == 'n' or checkWordList == 'N':
@@ -71,6 +71,12 @@ def zyndra(found,zippedForlater):
         print("You will be leaving this program now...")
         time.sleep(3)
         openingZydra=os.system("python3 zydra.py -f {} -b {} -m 1 -x {}".format(zippedForlater,typeChar,maxChar))
+        
+        if openingZydra != 0:
+            os.system("python zydra.py -f {} -b {} -m 1 -x {}".format(zippedForlater,typeChar,maxChar))
+        
+        # print("Something went wrong with the installation, please download/clone the repository again :)")
+        
         exit()
 
 

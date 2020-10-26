@@ -1,5 +1,5 @@
 #!/bin/bash
-
+ 
 lgreen="\33[1;32m"
 green="\33[0;32m"
 red="\33[1;31m"
